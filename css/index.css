@@ -1,0 +1,98 @@
+@charset "utf-8";
+html                             {width: 100%; height: 100%;}
+body                             {width: 100%; height: 100%; min-width: 1000px; min-height: 600px; position: relative}
+a                                {text-decoration: none;}
+div.loading                      {position: fixed; width: 100%; height: 100%; left: 0px; top: 0px;}
+div.loadingbg                    {position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; background: #fff;}
+div.loadingicon                  {position: absolute; width: 30%; height: 30%; left: 0px; right: 0px; top: 0px; bottom: 0px; margin: auto; text-align: center; display: table;}
+div.loadingicon img              {position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; margin: auto;}
+div.loadingicon .number			 {color: #86bc23; font:normal 55px/60px "Arial";display: table-cell; vertical-align: middle;}	
+
+.wrapper {width: 100%; height: 100%; position: fixed;  top: 0; left: 0; background: #ffedd9;}
+.content {width: 1000px; height: 100%; margin: 0 auto; position: relative; border:1px solid #000;}
+.cut1 .B1 {position: absolute; top: 100px; left: 220px}
+.cut1 .A1 {position: absolute; top: -200px; left: 190px}
+.cut1 .M1 {position: absolute; top: -325px; left: 285px}
+.cut1 .mask {position: absolute; width: 100%; height:80px; background: #ffedd9; top:0; left: 0}
+.cut1 .kv {position: absolute; top: 50px; left: -30px}
+.cut1 .scrolltip {position: absolute; top: 558px; left: 50%; margin-left: -69px}
+.cut1 .P1 {position: absolute; top: 340px; left: 555px}
+.logo {position: fixed; left: 15px; top: 15px;}
+.fb_share {position: fixed; bottom: 15px; left: 15px; cursor: pointer;}
+.menu {position: fixed; right: 0; top: 177px}
+.nav {position: relative; width: 60px; height: 60px; cursor: pointer}
+.nav img {position: absolute; right: 0}
+.cut2 .B2 {position: absolute; top: 80px; right: -1040px}
+.cut2 .A2 {position: absolute; top: 80px; left: -1040px}
+.cut2 .M2 {position: absolute; top: 1150px; left: 340px}
+.cut2 .w2-r {position: absolute; top: 102px; right: 16px;display: none}
+.cut2 .w2-l {position: absolute; top: 152px; left: 25px; display: none}
+.cut3 .MB3 {position: absolute; top: 1150px; left: 149px}
+.cut3 .MBA3 {position: absolute; top: 198px; left: 149px; display: none}
+.cut3 .w3-t {position: absolute; top: 80px; left: 60px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

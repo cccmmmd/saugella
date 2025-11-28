@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body {width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+img {width: 100%; position: relative; top: 0;left: 0;}
+.wrapper {width: 100%; height: 100%; position: absolute; top: 0; left: 0; font-size: 0}
+.outer {position: absolute; width: 100%; left: 0; top: 0; overflow: hidden;}
+.pageBox {width: 900%; position: absolute; left: 0; top: 0; clear: left;}
+.page {width: 11.1111%; position: relative; top: 0; font-size: 0; float: left;}
+.p8 {padding-bottom: 0; //display: none; }
+.intro {width: 100%; position: absolute; left: 0; top: 0; font-size: 0; display: none}
+.btn {width: 86%; position: absolute; top: 58%; left: 7%; display: none;}
+.p {width:11.1111%; height: 56.7%; position: absolute; top:0; left: 0}
+.right {width: 5%; position: absolute; right: 2%; top: 38%;}
+.left {width: 5%; position: absolute; left: 2%; top: 38%; display: none;}
+.right img, .left img {animation-duration: 1s;  animation-name: show;  animation-iteration-count: infinite;
+-webkit-animation-duration: 1s;  -webkit-animation-name: show;  -webkit-animation-iteration-count: infinite;}
+.off{width: 31%; height: 15%; position: absolute; top: 0%; left: 3%; cursor: pointer}
+.cue {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.5)}
+.cuepic {width: 50%; position: relative; margin: 70% auto;}
+
+@-webkit-keyframes show {
+  0% {
+   opacity: 1;
+   filter: alpha(opacity = 100);
+  }
+
+  50%{
+     opacity: 0;
+     filter: alpha(opacity = 0);
+  }
+}
+
+@-moz-keyframes show {
+  from {
+    display: block;
+  }
+
+  to {
+    display: none;
+  }
+}
